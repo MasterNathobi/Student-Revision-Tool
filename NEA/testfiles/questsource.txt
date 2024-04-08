@@ -1,0 +1,425 @@
+What is an integer?
+A positive or negative whole number
+
+What is a Real or Float number?
+A positive or negative number that can have a fractional part.
+
+What is a Boolean?
+True or False
+
+What is a character?
+A single letter, number or symbol
+
+What is a string?
+A group of characters
+
+What is Date/Time?
+A way of storing Date/Time
+
+What is a pointer?
+A way of storing a memory address.
+
+What is a record?
+A collection of related fields, each of which could hold a different data type.
+
+What is an array?
+A finite, indexed set of related elements of the same data type.
+
+What is a user defined data type?
+A data type derived from existing data types in order to create a customized data structure.
+
+What is variable declaration?
+Creating a variable for the first time. giving it a name and sometimes a data type.
+
+What is constant decleration?
+Creating a constant for the first time.
+
+What is assignment?
+giving a constant or a variable a value.
+
+what is iteration?
+repetition of a process e.g. a while or for loop. this could be definite or indefinite.
+
+What is selection?
+comparing values and then choosing an appropriate action. e.g. an if statement.
+
+what is a subroutine?
+A named block of code containing a set of instructions designed to perform a frequently used operation.
+
+What is definite iteration?
+the number of repititions is known before the loop starts.
+
+What is indefinite iteration?
+the number of repititions is not known before the loop starts.
+
+What is a nested structure?
+One structure is placed within another. Easily identified by indentation.
+
+What is meant by meaningful identifier names?
+Giving constants, variables and subroutines sensible and meaningful identifier names.
+
+What does the real/float division operator do?
+divides one number by the other.
+
+What does the integer division operator do?
+divides one number by the other but only returns the whole number part.
+
+What does the modulo operator do?
+returns the remainder of an integer division.
+
+What does the exponentiation operator do?
+raises one value to the power of another.
+
+What does the rounding operator do?
+limits the degree of accuracy of a number. (rounds up or down)
+
+What does the truncation operator do?
+removes the decimal part of a number. (never rounds up)
+
+what does the string handling function "Length" do?
+Returns the number of characters in a specified string.
+
+what does the string handling function "position" do?
+returns the position of a specified character within a string.
+
+what does the string handling function "concatenation" do?
+joins two or more strings together to form a new and longer string.
+
+Is a function required to return a value?
+yes
+
+is a procedure required to return a value?
+no
+
+what is a recursive subroutine?
+a subroutine defined in terms of itself.
+
+what type of error would occur if a base case in a recursive subroutine is never met.
+Stack overflow error.
+
+what is a data type?
+a particular kind of data item, as defined by the values it can take, the programming language used, or the operations that can be performed on it.
+
+why is it important to give meaningful identifier names?
+It allows a different programmer to work out the purpose of a constant, variable or subroutine from its name.
+
+what two things are data types defined by?
+there values they can take and the operations that can be performed on them.
+
+is -44 an integer?
+yes
+
+which data type can only be true or false?
+Boolean.
+
+in what type of iteration is the number of repititions required not known before the loop starts?
+Indefinite iteration
+
+what visible feature of program code signifies nesting?
+indentation.
+
+using INTEGER division what is 14 DIV 3
+4
+
+using the modulo operation what is 30 MOD 4?
+2
+
+What is 1 XOR 1?
+0
+
+what is a seed value used for?
+generating random numbers.
+
+what name is given to code run to handle an exception?
+Catch block
+
+What name is given to a subroutine that always returns a value?
+A function.
+
+what are parameters used for?
+to pass data values into a subroutine.
+
+What name is given to the the actual value passed by a parameter?
+An argument.
+
+What type of variable can be passed from any part of the program?
+Global variable
+
+what is meant by a recursive subroutine.
+a subroutine defined in terms of itself.
+
+what is meant by a base case.
+the terminating situation in recursion. it does not use recursion to produce a result.
+
+what scope is a variable that can be accessed from all parts of a program?
+global scope
+
+what do rectangles represent in hierarchy charts?
+procedures
+
+how is data stored in procedural programs?
+Constants and variables.
+
+what name is given to containers for data and instructions In object oriented programming?
+Objects.
+
+in object-oriented programming, what specifies the properties and methods that objects have?
+Classes
+
+in class diagrams which type of line represents aggregation?
+unfilled diamond.
+
+in class diagrams which type of line represents composition?
+filled diamond.
+
+what are data structures
+containers within which information is stored by computers.
+
+to represent a table what type of array would you use?
+a 2-dimensional array.
+
+what is an abstract data type/data structure?
+a data structure that makes use of other data structures to form a new way of storing data.
+
+what is a queue?
+an abstract data structure based on an array. A FIFO (first in first out) abstract data type.
+
+an example of where queues are used in computer systems?
+keyboard buffers, each key press is added to the queue.
+
+which search algorithm uses a queue to keep track of which nodes have been visited?
+breadth first.
+
+what abstract data structure does a breadth first search algorithm use to keep track of which nodes have been visited?
+A queue
+
+how many pointers does a linear queue have?
+2
+
+where are the pointers located in a linear queue?
+front and rear of the queue.
+
+what operation adds a value into a queue?
+enqueue
+
+what operation removes a value into a queue?
+dequeue
+
+when a value is enqueued into a queue where is it entered?
+at the rear.
+
+when a value is dequeued from a queue where is it removed from?
+the front.
+
+if a queue has no content what does the operation isfull return for that queue?
+false
+
+if a queue has no content what does the operation isempty return for that queue?
+true
+
+if a queue has no available positions behind the front pointer what does the operation isfull return for that queue?
+true
+
+if a queue has available positions behind the front pointer what does the operation isfull return for that queue?
+false
+
+how is emptiness detected in a queue?
+if the front and rear pointer are at the same position the queue is empty.
+
+what is an advantage to a circular queue?
+more memory efficient.
+
+what is the difference between circular and linear queues?
+in a circular queue the front and rear pointers can move over the two ends of the queue.
+
+how does a priority queue work?
+items are assigned a priority, items with the highest priority are dequeued first.
+
+what happens if 2 items have the same priority?
+items are dequeued in the first in first out takes order.
+
+example of a priority queue?
+in a school a headmaster will have a higher printer priority than the students so their print jobs are completed first.
+
+what type of abstract data structure is a stack?
+LIFO (last in first out)
+
+what is a stack?
+an abstract data structure based on an array. a LIFO (last in first out) abstract data type.
+
+how many pointers does a stack have?
+1
+
+what is the pointer on a stack?
+Top pointer
+
+in a stack where does the top pointer point?
+to the top of the stack, the first to be popped off the stack.
+
+what does the push operation do to a stack?
+adds a value to the top of the stack
+
+what does the pop operation do to the stack?
+removes the top value in the stack.
+
+what does the peek operation do to the stack?
+it returns the value at the top of the stack without deleting it.
+
+what is a graph?
+an abstract data structure used to represent complex relationships between items within datasets.
+
+an example of what graphs can be used to represent in computing.
+networks, IT networks e.g. the internet.
+
+what elements do all qraphs contain?
+nodes and edges
+
+what is a weighted graph?
+a graph that has a numerical value associated with each edge. e.g. time, distance or cost.
+
+what is a directed graph?
+a graph in which you can only travel a specific direction between nodes.
+
+two ways a graph can be represented?
+an adjacency matrix or an adjacency list
+
+What is an adjacency matrix?
+a tabular representation of a graph where each node is assigned a row and a column.
+
+in an adjacency matrix what does a 1 represent?
+that there is an edge between the two nodes
+
+in an adjacency matrix what does a 0 represent?
+that there is no edge between the two nodes.
+
+in an adjacency matrix for a weighted graph what do the numbers in the table represent?
+the weight of that edge between the two nodes.
+
+if no edge connects two nodes what will be present in that cell in a weighted adjacency matrix?
+an infinity symbol
+
+what is an adjacency list?
+each node on the graph is placed into a list with all the adjacent nodes listed next to it.
+
+which is more memory efficient adjacency matrix or adjacency list?
+adjacency list
+
+which is more time efficient adjacency matrix or adjacency list?
+adjacency matrix
+
+which is more time efficient adjacency matrix or adjacency list?
+adjacency matrix
+
+which is more suited to represent dense graphs adjacency matrix or adjacency list?
+adjacency matrix
+
+which is more suitable for dense graphs with lots of edges? adjacency matrix or adjacency list?
+adjacency matrix
+
+which is more suited to representing less dense graphs?
+adjacency list
+
+which is more suitable for less dense graphs with few of edges? adjacency matrix or adjacency list?
+adjacency list
+
+advantages of using an adjacency matrix to represent a graph?
+it is more time efficient when looking if a particular edge as it can be looked up via its row and column.
+
+advantages to using an adjacency list compared to an adjacency matrix to represent a graph.
+it's more memory efficient as it only stores edges that exist in the graph.
+
+advantages to using an adjacency matrix compared to an adjacency list to represent a graph.
+it's more time efficient as it allows specific edges to be queried easily via looking up its row and column.
+
+disadvantages to using an adjacency list compared to an adjacency matrix to represent a graph.
+it's slow to query as you must search the list sequentially to find a specific edge.
+
+disadvantages to using an adjacency matrix compared to an adjacency list to represent a graph.
+it takes up more memory as it stores edges that don't exist and half the data is repeated.
+
+what is a tree graph?
+a connected, undirected graph with no cycles.
+
+what 3 properties must a tree graph have?
+it must be connected, undirected and have no cycles.
+
+what is a rooted tree graph?
+a tree with a root node from which all the other nodes stem.
+
+what is a parent node in a tree graph?
+a node from which other nodes stem from.
+
+what is a root node in a tree graph?
+a node with no parent nodes.
+
+what is a child node in a tree graph?
+a node which stems from another.
+
+what is a child node with no child nodes stemming from it called in a tree graph?
+a leaf.
+
+what is a binary tree?
+a rooted tree in which each parent node has no more than 2 child nodes.
+
+what's a use of a rooted tree graph?
+to represent file systems or a family.
+
+what is a hash table?
+a table that stores the data using a value and a key which is calculated using a hashing algorithm.
+
+using hash tables what is the constant time complexity of retrieving data using big O notation.
+O(1)
+
+how does a hashing algorithm work?
+it takes an input and returns a hash which is unique to its input and cannot be reversed to retrieve the input value.
+
+how are values looked up in a hashing table?
+the desired value is inputted and hashed and the position in the table corresponding to that hash is queried.
+
+what is a collision in a hash table?
+when two values produce the same hash and data in the table could be overwritten.
+
+how do well designed hash tables get around collisions?
+by using rehashing which finds an available position according to an agreed procedure.
+
+what is an example of rehashing technique in a hash table.
+to just keep on moving to the next position until an available one is found.
+
+what is a dictionary?
+a collection of key-value pairs in which a value is accessed by its associated key.
+
+how do you complete vector addition?
+add the corresponding vectors together.
+
+what does vector addition achieve?
+translation
+
+how do you scale a vector?
+each of its components are multiplied by a scalar
+
+what is convex combination of two vectors?
+if you have vectors A and B then a convex combination of the two would be AX + BY where X and Y are both numbers greater than 0 and less than 1 that add up to 1.
+
+what is the dot product of two vectors?
+a single number derived from the components of the two vectors that can be used to determine the angle between two vectors.
+
+how do you work out the dot product of two vectors?
+multiply the respective parts of the Vectors with each other and add the two results.
+
+what is a static data structure?
+a data structure fixed in size.
+
+what is a dynamic data structure?
+a data structure that change in size to store their content.
+
+what error occurs if the amount of data to be stored in a static data structure exceeds the number of memory locations allocated.
+overflow error
+
+how is a dynamic data structure achieved?
+each item of data is stored next to a reference to where the next item is stored in memory.
+
+what is graph traversal?
+the process of visiting each vertex in a graph.
+
+what are the 2 algorithms for graph traversal?
+breadth first and depth first.
